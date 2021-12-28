@@ -1,4 +1,9 @@
 package com.edcan.wishare.activity.main
 
-class WishEntity {
-}
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity
+data class WishEntity (
+    @PrimaryKey var id : Int,
+    var wish: String)
