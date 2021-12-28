@@ -3,6 +3,9 @@ plugins {
     id 'kotlin-android'
 }
 
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdk 31
 
@@ -32,6 +35,13 @@ android {
 }
 
 dependencies {
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.3')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx' //firestore
+    implementation 'com.firebaseui:firebase-ui-auth:7.2.0' //auth
+    implementation 'com.google.android.gms:play-services-auth:20.0.0' //google login
+
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'

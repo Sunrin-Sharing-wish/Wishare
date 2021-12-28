@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837353499807",
+    "project_id": "wishare-a2f9e",
+    "storage_bucket": "wishare-a2f9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837353499807:android:ccb0159dccdaa868e686aa",
+        "android_client_info": {
+          "package_name": "com.edcan.wishare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837353499807-c9ojcsiklrmc3cft5qr27cq70hn92rqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMFKn9TajrBZV3yqhlf5hsFixAGSU--NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837353499807-c9ojcsiklrmc3cft5qr27cq70hn92rqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
